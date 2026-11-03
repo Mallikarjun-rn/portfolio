@@ -1,346 +1,949 @@
+
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#0a1020">
 
-    <title>Mallikarjun Neeralagi | Embedded Engineer</title>
+    <meta name="description" content="Mallikarjun Neeralagi - Embedded Systems, PCB Design and IoT enthusiast.">
+
+    <title>Mallikarjun Neeralagi | Embedded Systems Engineer</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- Navigation Bar -->
-    <nav>
-        <div class="logo">Mallikarjun</div>
+    <div class="scroll-progress"></div>
 
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+    <!-- NAVIGATION -->
+    <header class="site-header">
+        <nav class="nav container">
 
+            <a href="#home" class="brand">
+                mallikarjun<span>.</span>
+            </a>
 
-    <!-- Home Section -->
-    <section id="home" class="hero">
+            <button class="menu-toggle"
+                    aria-label="Open navigation"
+                    aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
 
-        <img src="images/profile.jpg" alt="Mallikarjun Neeralagi" class="profile-photo">
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
 
-
-        <p class="hello">HELLO, I'M</p>
-
-
-        <h1>Mallikarjun Neeralagi</h1>
-
-        <h2>Embedded Systems Engineer</h2>
-
-        <p class="description">
-            Electronics and Communication Engineering student passionate about
-            Embedded Systems, Firmware Development, Hardware Design and IoT.
-        </p>
-
-        <div class="buttons">
-
-    
-            <a href="#projects" class="btn">
-       
-                View My Projects
-   
-    </a>
-
-    <a href="resume.pdf" class="btn secondary" download>
-        Download Resume
-    </a>
-
-</div>
-
-    </section>
+        </nav>
+    </header>
 
 
+    <main>
 
-        <!-- About Section -->
+        <!-- HERO SECTION -->
+        <section class="hero section" id="home">
 
-        <section id="about">
+            <div class="hero-grid"></div>
 
-    <h2 class="section-title">About Me</h2>
+            <div class="hero-content container">
 
-    <div class="about-container">
+                <div class="hero-copy reveal">
 
-        <div class="about-text">
+                    <div class="profile-wrapper">
+                        <img
+                            src="images/profile.jpg"
+                            alt="Mallikarjun Neeralagi"
+                            class="profile-photo"
+                        >
+                    </div>
 
-            <h3>Embedded Systems & PCB Design Enthusiast</h3>
+                    <p class="eyebrow">
+                        <span class="status-dot"></span>
+                        OPEN TO INTERNSHIP OPPORTUNITIES
+                    </p>
 
-            <p>
-                I am an Electronics and Communication Engineering student
-                with hands-on experience in Embedded Systems, PCB Design,
-                and IoT development.
-            </p>
+                    <p class="hello">HELLO, I'M</p>
 
-            <p>
-                I work with platforms such as ESP32, STM32, Arduino and
-                Raspberry Pi, along with tools including Altium Designer,
-                KiCad and STM32CubeIDE.
-            </p>
+                    <h1>
+                        Mallikarjun<br>
+                        <span>Neeralagi.</span>
+                    </h1>
 
-            <p>
-                I also have practical exposure to SMT assembly,
-                Pick-and-Place machines, PCB inspection, hardware testing,
-                debugging and system integration.
-            </p>
+                    <h2>
+                        Embedded Systems
+                        <span class="accent">&</span>
+                        IoT Enthusiast
+                    </h2>
 
-            <p>
-                I am interested in building reliable hardware and embedded
-                solutions for real-world applications.
-            </p>
+                    <p class="hero-description">
+                        Electronics and Communication Engineering student
+                        passionate about Embedded Systems, Firmware Development,
+                        Hardware Design and IoT.
+                    </p>
 
-        </div>
+                    <div class="hero-actions">
 
-    </div>
+                        <a href="#projects" class="button button-primary">
+                            Explore My Work <span>↗</span>
+                        </a>
 
-</section>
+                        <a href="resume.pdf"
+                           class="button button-outline"
+                           download>
+                            Download Resume <span>↓</span>
+                        </a>
 
-   <!-- Skills Section -->
-<section id="skills">
+                    </div>
 
-    <h2 class="section-title">Technical Skills</h2>
+                    <div class="hero-socials">
 
-    <div class="skills-container">
+                        <a href="https://github.com/Mallikarjun-rn"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            GitHub ↗
+                        </a>
 
-        <div class="skill-card">
-            <h3>Programming</h3>
-            <p>C</p>
-            <p>C++</p>
-            <p>Embedded C</p>
-            <p>Python</p>
-        </div>
+                        <a href="https://www.linkedin.com/in/mallikarjun-neeralagi-1979142a1/"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            LinkedIn ↗
+                        </a>
 
-        <div class="skill-card">
-            <h3>Embedded Platforms</h3>
-            <p>Arduino</p>
-            <p>ESP32</p>
-            <p>STM32</p>
-            <p>Raspberry Pi</p>
-        </div>
+                        <a href="mailto:neeralagimallikarjun45@gmail.com">
+                            Email ↗
+                        </a>
 
-        <div class="skill-card">
-            <h3>PCB Design</h3>
-            <p>Altium Designer</p>
-            <p>KiCad</p>
-            <p>PCB Layout</p>
-            <p>PCB Inspection</p>
-        </div>
+                    </div>
 
-        <div class="skill-card">
-            <h3>Communication</h3>
-            <p>UART</p>
-            <p>SPI</p>
-            <p>I2C</p>
-            <p>Wi-Fi</p>
-        </div>
-
-        <div class="skill-card">
-            <h3>Tools</h3>
-            <p>STM32CubeIDE</p>
-            <p>Arduino IDE</p>
-            <p>Git</p>
-            <p>Matplotlib</p>
-        </div>
-
-        <div class="skill-card">
-            <h3>Hardware & Manufacturing</h3>
-            <p>Sensors</p>
-            <p>SMT Assembly</p>
-            <p>Pick-and-Place</p>
-            <p>Hardware Testing</p>
-        </div>
-
-    </div>
-
-</section>
+                </div>
 
 
-    <!-- Projects Section -->
-    <!-- Projects Section -->
-<section id="projects">
+                <!-- HERO VISUAL -->
 
-    <h2 class="section-title">Featured Projects</h2>
+                <div class="hero-visual reveal">
 
-    <div class="projects-container">
+                    <div class="orbit orbit-one"></div>
+                    <div class="orbit orbit-two"></div>
 
-        <!-- Project 1 -->
-        <div class="project-card">
+                    <div class="chip-card">
 
-            <img src="images/thermaguard.jpg"
-                 alt="ThermaGuard AI Project"
-                 class="project-image">
+                        <div class="chip-top">
+                            <span>EMBEDDED / 01</span>
+                            <span class="chip-led"></span>
+                        </div>
 
-            <div class="project-content">
+                        <div class="chip-symbol">
+                            <span>芯</span>
+                        </div>
 
-                <h3>ThermaGuard AI</h3>
+                        <div class="chip-bottom">
+                            <span>HARDWARE</span>
+                            <span>FIRMWARE</span>
+                            <span>IoT</span>
+                        </div>
 
-                <p>
-                    A thermal-based detection system designed to identify
-                    metal and mobile devices using an MLX90640 thermal sensor
-                    and ESP32.
-                </p>
+                    </div>
 
-                <p class="technologies">
-                    ESP32 | MLX90640 | Python | Embedded C
-                </p>
-
-                <div class="project-links">
-
-                    <a href="#" class="project-btn">
-                        GitHub
-                    </a>
-
-                    <a href="#" class="project-btn">
-                        Details
-                    </a>
+                    <div class="float-tag tag-top">C / C++</div>
+                    <div class="float-tag tag-right">STM32</div>
+                    <div class="float-tag tag-bottom">PCB DESIGN</div>
 
                 </div>
 
             </div>
 
-        </div>
+            <a href="#about" class="scroll-cue">
+                <span></span>
+                SCROLL TO EXPLORE
+            </a>
+
+        </section>
 
 
-        <!-- Project 2 -->
-        <div class="project-card">
+        <!-- ABOUT SECTION -->
+        <section class="section about-section" id="about">
 
-            <img src="images/robot.jpg"
-                 alt="Bluetooth Controlled Robot"
-                 class="project-image">
+            <div class="container">
 
-            <div class="project-content">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">01 / ABOUT ME</p>
 
-                <h3>Bluetooth Controlled Robot</h3>
+                    <h2>
+                        Curious by nature.<br>
+                        <span>Builder by choice.</span>
+                    </h2>
+                </div>
 
-                <p>
-                    A Bluetooth-controlled robotic vehicle developed using
-                    Arduino, HC-05 Bluetooth module, motor driver and DC
-                    gear motors.
-                </p>
 
-                <p class="technologies">
-                    Arduino | HC-05 | Embedded C | Motors
-                </p>
+                <div class="about-layout">
 
-                <div class="project-links">
+                    <div class="about-copy reveal">
 
-                    <a href="#" class="project-btn">
-                        GitHub
-                    </a>
+                        <p class="lead">
+                            I am an Electronics and Communication Engineering
+                            student with hands-on experience in
+                            <strong>Embedded Systems, PCB Design and IoT Development.</strong>
+                        </p>
 
-                    <a href="#" class="project-btn">
-                        Details
-                    </a>
+                        <p>
+                            I enjoy turning ideas into working hardware —
+                            from writing firmware and interfacing sensors
+                            to designing circuit boards and testing complete systems.
+                        </p>
+
+                        <p>
+                            I work with platforms such as ESP32, STM32,
+                            Arduino and Raspberry Pi, along with tools
+                            including Altium Designer, KiCad and STM32CubeIDE.
+                        </p>
+
+                        <p>
+                            I also have practical exposure to SMT assembly,
+                            Pick-and-Place machines, PCB inspection,
+                            hardware testing, debugging and system integration.
+                        </p>
+
+                        <p>
+                            My goal is to contribute to real-world products
+                            by building reliable and efficient embedded solutions.
+                        </p>
+
+                    </div>
+
+
+                    <div class="about-facts reveal">
+
+                        <div class="fact">
+                            <span>01</span>
+                            <div>
+                                <h3>Embedded Development</h3>
+                                <p>Firmware, microcontrollers and sensor interfacing</p>
+                            </div>
+                        </div>
+
+                        <div class="fact">
+                            <span>02</span>
+                            <div>
+                                <h3>Hardware Design</h3>
+                                <p>PCB layout, assembly and inspection</p>
+                            </div>
+                        </div>
+
+                        <div class="fact">
+                            <span>03</span>
+                            <div>
+                                <h3>Connected Solutions</h3>
+                                <p>IoT systems and device integration</p>
+                            </div>
+                        </div>
+
+                    </div>
 
                 </div>
 
             </div>
 
-        </div>
+        </section>
 
 
-        <!-- Project 3 -->
-        <div class="project-card">
+        <!-- SKILLS SECTION -->
+        <section class="section skills-section" id="skills">
 
-            <img src="images/line-follower.jpg"
-                 alt="Line Follower Robot"
-                 class="project-image">
+            <div class="container">
 
-            <div class="project-content">
+                <div class="section-heading reveal">
 
-                <h3>Line Follower Robot</h3>
+                    <p class="eyebrow">02 / MY TOOLKIT</p>
 
-                <p>
-                    An autonomous robot using IR sensors and PWM-based
-                    motor control to follow a predefined path.
-                </p>
+                    <h2>
+                        Skills & <span>Technologies.</span>
+                    </h2>
 
-                <p class="technologies">
-                    Arduino | IR Sensors | PWM | Embedded C
-                </p>
+                    <p class="section-intro">
+                        Technologies and tools I use to design,
+                        develop and test embedded solutions.
+                    </p>
 
-                <div class="project-links">
+                </div>
 
-                    <a href="#" class="project-btn">
-                        GitHub
-                    </a>
 
-                    <a href="#" class="project-btn">
-                        Details
-                    </a>
+                <div class="skills-grid">
+
+                    <article class="skill-card reveal">
+                        <div class="skill-icon">⌘</div>
+                        <h3>Programming Languages</h3>
+
+                        <div class="tag-list">
+                            <span>C</span>
+                            <span>C++</span>
+                            <span>Embedded C</span>
+                            <span>Python</span>
+                        </div>
+                    </article>
+
+
+                    <article class="skill-card reveal">
+                        <div class="skill-icon">▦</div>
+                        <h3>Embedded Platforms</h3>
+
+                        <div class="tag-list">
+                            <span>Arduino</span>
+                            <span>ESP32</span>
+                            <span>STM32</span>
+                            <span>Raspberry Pi</span>
+                        </div>
+                    </article>
+
+
+                    <article class="skill-card reveal">
+                        <div class="skill-icon">⌁</div>
+                        <h3>PCB Design</h3>
+
+                        <div class="tag-list">
+                            <span>Altium Designer</span>
+                            <span>KiCad</span>
+                            <span>PCB Layout</span>
+                            <span>PCB Inspection</span>
+                        </div>
+                    </article>
+
+
+                    <article class="skill-card reveal">
+                        <div class="skill-icon">⇄</div>
+                        <h3>Protocols & Hardware</h3>
+
+                        <div class="tag-list">
+                            <span>UART</span>
+                            <span>SPI</span>
+                            <span>I2C</span>
+                            <span>Wi-Fi</span>
+                            <span>Sensors</span>
+                        </div>
+                    </article>
+
+
+                    <article class="skill-card reveal">
+                        <div class="skill-icon">⌘</div>
+                        <h3>Tools & Software</h3>
+
+                        <div class="tag-list">
+                            <span>STM32CubeIDE</span>
+                            <span>Arduino IDE</span>
+                            <span>Git</span>
+                            <span>Matplotlib</span>
+                        </div>
+                    </article>
+
+
+                    <article class="skill-card reveal">
+                        <div class="skill-icon">⚙</div>
+                        <h3>Manufacturing</h3>
+
+                        <div class="tag-list">
+                            <span>SMT Assembly</span>
+                            <span>Pick-and-Place</span>
+                            <span>PCB Inspection</span>
+                            <span>Hardware Testing</span>
+                        </div>
+                    </article>
 
                 </div>
 
             </div>
 
+        </section>
+
+
+        <!-- PROJECTS SECTION -->
+        <section class="section projects-section" id="projects">
+
+            <div class="container">
+
+                <div class="section-heading reveal">
+
+                    <p class="eyebrow">03 / SELECTED WORK</p>
+
+                    <h2>
+                        Things I've <span>Built.</span>
+                    </h2>
+
+                    <p class="section-intro">
+                        A selection of projects exploring embedded hardware,
+                        intelligent sensing and connected devices.
+                    </p>
+
+                </div>
+
+
+                <div class="projects-grid">
+
+
+                    <!-- PROJECT 1 -->
+
+                    <article class="project-card reveal">
+
+                        <div class="project-image-container placeholder-home">
+                            <div class="project-placeholder">
+                                <span>⌂</span>
+                                <small>SMART HOME / IoT</small>
+                            </div>
+                        </div>
+
+                        <div class="project-body">
+
+                            <div class="project-meta">
+                                <span>PROJECT 01</span>
+                                <span class="project-status">IoT</span>
+                            </div>
+
+                            <h3>IoT-Based Home Automation System</h3>
+
+                            <p>
+                                Developed an IoT-based home automation system
+                                using ESP32, relay modules and Wi-Fi communication
+                                for remote appliance control. Improved energy
+                                efficiency through automated appliance scheduling.
+                            </p>
+
+                            <div class="tag-list">
+                                <span>ESP32</span>
+                                <span>Relays</span>
+                                <span>Wi-Fi</span>
+                                <span>Embedded C</span>
+                            </div>
+
+                            <div class="project-links">
+                                <a href="https://github.com/Mallikarjun-rn"
+                                   target="_blank"
+                                   rel="noopener noreferrer">
+                                    GitHub Profile ↗
+                                </a>
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- PROJECT 2: THERMAGUARD -->
+
+                    <article class="project-card reveal">
+
+                        <div class="project-image-container">
+
+                            <img
+                                src="images/robot.jpg"
+                                alt="ThermaGuard AI thermal detection project"
+                                class="project-image"
+                                loading="lazy"
+                            >
+
+                            <div class="image-overlay">
+                                THERMAL DETECTION SYSTEM
+                            </div>
+
+                        </div>
+
+                        <div class="project-body">
+
+                            <div class="project-meta">
+                                <span>PROJECT 02</span>
+                                <span class="project-status">Embedded + ML</span>
+                            </div>
+
+                            <h3>ThermaGuard AI</h3>
+
+                            <p>
+                                A thermal detection system using an MLX90640
+                                sensor to identify metal objects and mobile
+                                devices. Integrates thermal imaging with
+                                embedded hardware for real-time monitoring
+                                and alerts.
+                            </p>
+
+                            <div class="tag-list">
+                                <span>ESP32</span>
+                                <span>MLX90640</span>
+                                <span>Python</span>
+                                <span>Embedded C</span>
+                            </div>
+
+                            <div class="project-links">
+                                <a href="https://github.com/Mallikarjun-rn"
+                                   target="_blank"
+                                   rel="noopener noreferrer">
+                                    GitHub Profile ↗
+                                </a>
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- PROJECT 3 -->
+
+                    <article class="project-card reveal">
+
+                        <div class="project-image-container placeholder-health">
+
+                            <div class="project-placeholder">
+                                <span>+</span>
+                                <small>PRIVACY / EDGE COMPUTING</small>
+                            </div>
+
+                        </div>
+
+                        <div class="project-body">
+
+                            <div class="project-meta">
+                                <span>PROJECT 03</span>
+                                <span class="project-status">Privacy-first</span>
+                            </div>
+
+                            <h3>Privacy-First Healthcare Monitor</h3>
+
+                            <p>
+                                Developed a healthcare monitoring system
+                                with local, on-device sensor-based data
+                                processing to preserve user privacy.
+                            </p>
+
+                            <div class="tag-list">
+                                <span>Embedded Systems</span>
+                                <span>Sensors</span>
+                                <span>Edge Processing</span>
+                            </div>
+
+                            <div class="project-links">
+                                <a href="https://github.com/Mallikarjun-rn"
+                                   target="_blank"
+                                   rel="noopener noreferrer">
+                                    GitHub Profile ↗
+                                </a>
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- PROJECT 4: INDUSTRIAL MONITORING -->
+
+                    
+<!-- PROJECT 04: INDUSTRIAL CONDITION MONITORING -->
+
+<article class="project-card reveal">
+
+    <!-- CSS INDUSTRIAL ILLUSTRATION -->
+
+    <div class="project-image-container industrial-art">
+
+        <div class="industrial-label">
+            INDUSTRIAL MONITORING / LIVE SYSTEM
+        </div>
+
+        <div class="monitor-panel">
+
+            <div class="monitor-top">
+                <span>MACHINE STATUS</span>
+                <span class="live-indicator">● LIVE</span>
+            </div>
+
+            <div class="machine-visual">
+
+                <div class="machine-body">
+
+                    <div class="machine-display">
+                        <span>STM32</span>
+                        <strong>SYS</strong>
+                    </div>
+
+                    <div class="machine-wheel"></div>
+
+                    <div class="machine-base"></div>
+
+                </div>
+
+                <div class="sensor sensor-one"></div>
+                <div class="sensor sensor-two"></div>
+
+            </div>
+
+            <div class="monitor-data">
+
+                <div class="data-box">
+                    <span>TEMPERATURE</span>
+                    <strong>42.5°C</strong>
+                </div>
+
+                <div class="data-box">
+                    <span>VIBRATION</span>
+                    <strong>0.24 g</strong>
+                </div>
+
+            </div>
+
+            <div class="vibration-wave">
+
+                <svg viewBox="0 0 300 45"
+                     preserveAspectRatio="none">
+
+                    <polyline
+                        points="0,23 20,23 30,20 40,28 50,23 65,23 75,5 85,40 95,23 115,23 125,17 135,29 145,23 165,23 175,8 185,38 195,23 215,23 225,18 235,28 245,23 265,23 275,10 285,35 300,23"
+                    />
+
+                </svg>
+
+            </div>
+
+        </div>
+
+        <div class="industrial-footer">
+            STM32 · FREERTOS · SENSOR NETWORK
         </div>
 
     </div>
 
-</section>
 
-    <!-- Experience Section -->
-    <section id="experience">
+    <!-- PROJECT INFORMATION -->
 
-        <h2 class="section-title">Experience</h2>
+    <div class="project-body">
 
-        <div class="experience-card">
+        <div class="project-meta">
 
-            <h3>Embedded Systems & Hardware Development</h3>
+            <span>PROJECT 04</span>
 
-            <p>
-                Hands-on experience with Embedded Systems Development,
-                PCB Design, SMT Manufacturing, Pick-and-Place machines,
-                Hardware Testing, Debugging and System Integration.
-            </p>
-
-            <p class="technologies">
-                Embedded Systems | PCB Design | SMT | Hardware Testing
-            </p>
+            <span class="project-status ongoing">
+                Ongoing Project
+            </span>
 
         </div>
 
-    </section>
-
-
-    <!-- Contact Section -->
-    <section id="contact">
-
-        <h2 class="section-title">Contact Me</h2>
+        <h3>Industrial Condition Monitoring System</h3>
 
         <p>
-            Interested in Embedded Systems, Firmware Development and Hardware Design?
+            An embedded monitoring system designed to track machine
+            temperature and vibration, display live status on an OLED,
+            and provide alerts when abnormal conditions are detected.
+            The system aims to improve equipment reliability through
+            continuous monitoring.
         </p>
 
-        <div class="contact-links">
-
-            <a href="mailto:neeralagimallikarjun45@gmail.com">Email</a>
-
-            <a href="https://github.com/Mallikarjun-rn/" target="_blank">GitHub</a>
-
-            <a href="https://www.linkedin.com/in/mallikarjun-neeralagi/" target="_blank">LinkedIn</a>
-
+        <div class="tag-list">
+            <span>STM32</span>
+            <span>FreeRTOS</span>
+            <span>Embedded C</span>
+            <span>ADC</span>
+            <span>I2C</span>
+            <span>UART</span>
         </div>
 
-    </section>
+        <div class="project-links">
+            <span class="coming-soon">
+                Implementation in progress
+            </span>
+        </div>
+
+    </div>
+
+</article>
 
 
-    <!-- Footer -->
-    <footer>
+                    <!-- PROJECT 05: LINE FOLLOWER ROBOT -->
+
+<article class="project-card reveal">
+
+    <div class="project-image-container">
+        <img
+            src="images/line-follower.jpg"
+            alt="Line Follower Robot"
+            class="project-image"
+            loading="lazy"
+        >
+    </div>
+
+    <div class="project-body">
+
+        <div class="project-meta">
+            <span>PROJECT 05</span>
+            <span class="project-status">Robotics</span>
+        </div>
+
+        <h3>Line Follower Robot</h3>
 
         <p>
-            © 2026 Mallikarjun Neeralagi | Embedded Systems Engineer
+            An autonomous robot using IR sensors and
+            PWM-based motor control to follow a predefined path.
         </p>
+
+        <div class="tag-list">
+            <span>Arduino</span>
+            <span>IR Sensors</span>
+            <span>PWM</span>
+            <span>Embedded C</span>
+        </div>
+
+    </div>
+
+</article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- EXPERIENCE AND EDUCATION -->
+        <section class="section experience-section" id="experience">
+
+            <div class="container">
+
+                <div class="section-heading reveal">
+
+                    <p class="eyebrow">04 / MY JOURNEY</p>
+
+                    <h2>
+                        Experience & <span>Education.</span>
+                    </h2>
+
+                </div>
+
+
+                <div class="timeline">
+
+
+                    <article class="timeline-item reveal">
+
+                        <div class="timeline-date">
+                            INDUSTRIAL TRAINING
+                        </div>
+
+                        <div class="timeline-content">
+
+                            <p class="timeline-kicker">
+                                Vihsutura Technologies Pvt. Ltd.
+                            </p>
+
+                            <h3>Embedded Systems and PCB Design Trainee</h3>
+
+                            <ul>
+                                <li>
+                                    Designed PCB layouts using Altium Designer
+                                    and KiCad for embedded hardware projects.
+                                </li>
+
+                                <li>
+                                    Observed and applied industry-standard PCB
+                                    assembly and quality assurance workflows.
+                                </li>
+
+                                <li>
+                                    Gained hands-on experience in SMT manufacturing
+                                    and Pick-and-Place machine operation.
+                                </li>
+
+                                <li>
+                                    Assisted in hardware testing, debugging
+                                    and system integration.
+                                </li>
+                            </ul>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="timeline-item reveal">
+
+                        <div class="timeline-date">
+                            2023 — 2027 (EXPECTED)
+                        </div>
+
+                        <div class="timeline-content">
+
+                            <p class="timeline-kicker">
+                                Alva's Institute of Engineering and Technology,
+                                Moodbidri
+                            </p>
+
+                            <h3>Bachelor of Engineering</h3>
+
+                            <p>
+                                Electronics and Communication Engineering
+                            </p>
+
+                            <p class="result">
+                                CGPA: 8.4
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="timeline-item reveal">
+
+                        <div class="timeline-date">
+                            2021 — 2023
+                        </div>
+
+                        <div class="timeline-content">
+
+                            <p class="timeline-kicker">
+                                Prerana PU College, Belagavi
+                            </p>
+
+                            <h3>Pre-University (PCMC)</h3>
+
+                            <p class="result">
+                                Percentage: 86%
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="timeline-item reveal">
+
+                        <div class="timeline-date">
+                            2021
+                        </div>
+
+                        <div class="timeline-content">
+
+                            <p class="timeline-kicker">
+                                SRMRS, Khanapur
+                            </p>
+
+                            <h3>SSLC</h3>
+
+                            <p class="result">
+                                Percentage: 93%
+                            </p>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+
+                <!-- CERTIFICATIONS -->
+
+                <div class="certifications reveal">
+
+                    <p class="eyebrow">CERTIFICATIONS</p>
+
+                    <div class="cert-list">
+                        <span>NPTEL — Embedded Systems</span>
+                        <span>Scalar — Python Programming</span>
+                        <span>Coursera — Altium Design</span>
+                        <span>Coursera — C, C++, Embedded C</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- CONTACT SECTION -->
+        <section class="contact-section section" id="contact">
+
+            <div class="container contact-inner reveal">
+
+                <p class="eyebrow">05 / LET'S CONNECT</p>
+
+                <h2>
+                    Have a project<br>
+                    in <span>mind?</span>
+                </h2>
+
+                <p class="contact-copy">
+                    Interested in Embedded Systems, Firmware Development,
+                    PCB Design or IoT? I'd be glad to connect and explore
+                    opportunities.
+                </p>
+
+                <a href="mailto:neeralagimallikarjun45@gmail.com"
+                   class="button button-primary contact-cta">
+                    Say Hello <span>↗</span>
+                </a>
+
+
+                <div class="contact-details">
+
+                    <a href="mailto:neeralagimallikarjun45@gmail.com">
+                        neeralagimallikarjun45@gmail.com
+                    </a>
+
+                    <a href="tel:+916363538436">
+                        +91 63635 38436
+                    </a>
+
+                </div>
+
+
+                <div class="contact-socials">
+
+                    <a href="https://github.com/Mallikarjun-rn"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        GitHub ↗
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/mallikarjun-neeralagi-1979142a1/"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        LinkedIn ↗
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+
+        <div class="container footer-inner">
+
+            <a href="#home" class="brand">
+                mallikarjun<span>.</span>
+            </a>
+
+            <p>Designed & built with care.</p>
+
+            <p>
+                © <span id="year"></span> Mallikarjun Neeralagi
+            </p>
+
+            <a href="#home" class="back-top" aria-label="Back to top">
+                ↑
+            </a>
+
+        </div>
 
     </footer>
 
@@ -348,29 +951,4 @@
     <script src="script.js"></script>
 
 </body>
-
-</html        <!-- Project 4 -->
-        <div class="project-card">
-            <img src="images/industrial-monitoring.jpg"
-                 alt="Industrial Condition Monitoring System"
-                 class="project-image">
-
-            <div class="project-content">
-                <span class="project-status">Ongoing Project</span>
-                <h3>Industrial Condition Monitoring System</h3>
-                <p>
-                    An embedded monitoring system designed to track machine
-                    temperature and vibration, display live status on an OLED,
-                    and provide alerts when abnormal conditions are detected.
-                </p>
-                <p class="technologies">
-                    STM32 | FreeRTOS | Embedded C | ADC | I2C | UART
-                </p>
-                <div class="project-links">
-                    <a href="#" class="project-btn">GitHub</a>
-                    <a href="industrial-monitoring.html" class="project-btn">Details</a>
-                </div>
-            </div>
-        </div>
-
->
+</html>
